@@ -250,27 +250,27 @@ a {
 }
 .content-title::before {
   content: "";
-  background-image: url("/assets/images/title-deco-left-lg.png");
+  background-image: url("../images/title-deco-left-lg.png");
   width: 100px;
   height: 6px;
   background-position: center;
 }
 @media (max-width: 767px) {
   .content-title::before {
-    background-image: url("/assets/images/title-deco-left-sm.png");
+    background-image: url("../images/title-deco-left-sm.png");
     width: 56px;
   }
 }
 .content-title::after {
   content: "";
-  background-image: url("/assets/images/title-deco-right-lg.png");
+  background-image: url("../images/title-deco-right-lg.png");
   width: 100px;
   height: 6px;
   background-position: center;
 }
 @media (max-width: 767px) {
   .content-title::after {
-    background-image: url("/assets/images/title-deco-right-sm.png");
+    background-image: url("../images/title-deco-right-sm.png");
     width: 56px;
   }
 }
@@ -413,7 +413,7 @@ nav {
 }
 .banner h2::before {
   position: absolute;
-  content: url("/assets/images/quote-left.png");
+  content: url("../images/quote-left.png");
   width: 72px;
   height: 72px;
   top: 0px;
@@ -429,7 +429,7 @@ nav {
 }
 .banner h2::after {
   position: absolute;
-  content: url("/assets/images/quote-right.png");
+  content: url("../images/quote-right.png");
   width: 72px;
   height: 72px;
   bottom: 0px;
@@ -590,7 +590,7 @@ nav {
 }
 
 .footer {
-  background-image: url("/assets/images/footer-bg-lg.png");
+  background-image: url("../images/footer-bg-lg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -599,7 +599,7 @@ nav {
 @media (max-width: 767px) {
   .footer {
     padding: 40px 0;
-    background-image: url("/assets/images/footer-bg-sm.png");
+    background-image: url("../images/footer-bg-sm.png");
   }
 }
 .footer-inner {
@@ -809,7 +809,7 @@ nav {
 }
 @media (max-width: 992px) {
   .homepage-work-bg:nth-child(1) .homepage-work-img {
-    background-image: url("/assets/images/homepage-work1-bg.png");
+    background-image: url("../images/homepage-work1-bg.png");
     margin-top: 0px;
     margin-right: 0px;
     background-size: cover;
@@ -824,7 +824,7 @@ nav {
   }
 }
 .homepage-work-bg:nth-child(2) {
-  background-image: url("/assets/images/homepage-work2-lg.png");
+  background-image: url("../images/homepage-work2-lg.png");
 }
 @media (max-width: 992px) {
   .homepage-work-bg:nth-child(2) {
@@ -867,7 +867,7 @@ nav {
   }
 }
 .homepage-work-bg:nth-child(3) {
-  background-image: url("/assets/images/homepage-work3-bg.png");
+  background-image: url("../images/homepage-work3-bg.png");
 }
 @media (max-width: 992px) {
   .homepage-work-bg:nth-child(3) {
@@ -883,7 +883,7 @@ nav {
 }
 @media (max-width: 992px) {
   .homepage-work-bg:nth-child(3) .homepage-work-img {
-    background-image: url("/assets/images/homepage-work3-bg.png");
+    background-image: url("../images/homepage-work3-bg.png");
     margin: 0;
     background-size: cover;
     background-position: center;
@@ -988,7 +988,7 @@ nav {
 }
 
 .homepage-service {
-  background-image: url("/assets/images/homepage-services-bg.png");
+  background-image: url("../images/homepage-services-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 120px 0;
@@ -1012,7 +1012,7 @@ nav {
 .service-list-item {
   width: 25%;
   padding: 80px 0;
-  background-image: url("/assets/images/service-item-bg.png");
+  background-image: url("../images/service-item-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
