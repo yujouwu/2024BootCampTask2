@@ -216,7 +216,7 @@ a {
 .deco-mark::after {
   position: absolute;
   content: "";
-  background-image: url("/assets/images/mark.png");
+  background-image: url("../images/mark.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 148px;
@@ -796,7 +796,7 @@ nav {
   }
 }
 .homepage-work-bg:nth-child(1) {
-  background-image: url("/assets/images/homepage-work1-bg.png");
+  background-image: url("../images/homepage-work1-bg.png");
 }
 @media (max-width: 992px) {
   .homepage-work-bg:nth-child(1) {
